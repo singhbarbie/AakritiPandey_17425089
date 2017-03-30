@@ -1,0 +1,25 @@
+header{
+  background: skyblue;color: black;text-align: center;padding: 1%;margin: 1%;
+}
+ul{
+list-style: none;
+}
+a{
+text-decoration:none;
+}
+.nav{
+  margin: 2%;padding: 1%;background: pink;text-align: center;
+}
+.nav ul{
+  display: flex;flex-direction: row;justify-content: space-around;
+}
+.nav ul li{
+  border-radius: 5%;
+}
+.nav ul li{
+  margin: 1%;display: felx;flex-direction:row;justify-content: space-around;background: none;flex: 1 auto;
+
+}
+.nav:hover ul li a{
+  color: black;background-color: grey;
+}
