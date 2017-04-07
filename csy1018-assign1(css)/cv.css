@@ -5,8 +5,8 @@ body{
 }
 header{
   background: #001a1a;color: white;text-align: left;padding: 1%;
-  margin-left: -8;
-  margin-top: -8;
+  margin-left: -8px;
+  margin-top: -8px;
   display: flex;flex-direction: column;
 }
 h1{
@@ -74,6 +74,9 @@ section{
 }
 .grades{
   margin-left: 1%;
+}
+.star{
+  margin-left: 50%;
 }
 .picture img{
   width: 305px;

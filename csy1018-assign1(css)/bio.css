@@ -6,8 +6,8 @@ body{
 }
 header{
   background: #06130d;color: white;text-align: left;padding: 1%;
-  margin-left: -8;
-  margin-top: -8;
+  margin-left: -8px;
+  margin-top: -8px;
   display: flex;flex-direction: column;
 }
 

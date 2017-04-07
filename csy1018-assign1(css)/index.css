@@ -5,8 +5,8 @@ body{
 }
 header{
   background-color: #4d0000;color: white;text-align: left;padding: 1%;
-  margin-left: -8;
-  margin-top: -8;
+  margin-left: -8px;
+  margin-top: -8px;
   display: flex;flex-direction: column;
 }
 h1{
@@ -42,9 +42,20 @@ li a:hover{
   background-color: grey;
   color: white;
 }
-
+.text{
+  font-size: 30px;
+}
+.text h2{
+  margin-left: 10%;
+}
+.text h3{
+  margin-left: 40%;
+  margin-top: -4%;
+}
 .picture{
   text-align: center;
+  overflow: hidden;
+
 }
 
 .picture img{
@@ -52,6 +63,11 @@ li a:hover{
   width: 500px;
   height: 500px;
   border-radius: 50%;
+  transition: 2s ease-in-out 0.25s;
+
+}
+.picture img:hover{
+  transform:rotateX(360deg);
 }
 footer{
   background-color: #4d0000;color: white;padding: 2%;
@@ -99,6 +115,15 @@ header h1{
 
   .text{
     width: 100%;
+    font-size: 10px;
+  }
+  .text h2{
+    margin-left: 10%;
+    margin-top: 60%;
+  }
+  .text h3{
+    margin-left: 40%;
+
   }
 
   .picture {
@@ -107,7 +132,7 @@ header h1{
 
   .picture img{
     width: 100%;
-    margin-top: 50%;
+
   }
 
   footer{
