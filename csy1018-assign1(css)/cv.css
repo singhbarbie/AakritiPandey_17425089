@@ -1,3 +1,5 @@
+/*Name: Aakriti Pandey
+UN ID: 17425089*/
 body{
   background-color: #008080;
 }
@@ -26,7 +28,7 @@ h1{
 ul{
   list-style-type: none;
   padding: 1%;
-    display: flex;flex-flow: row-reverse;
+  display: flex;flex-flow: row-reverse;
 }
 
 li a {
@@ -34,7 +36,6 @@ li a {
   background-color: #001a1a;
   color: white;
   text-decoration: none;
-  float: right;
   padding: 10px 30px;
 
 }
@@ -46,9 +47,33 @@ section{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 18px;
 }
-.details{
+.text{
   text-align: left;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.instituion{
+  margin-left: 0px;
+  text-align: justify;
+}
+.level{
+  margin-left: 1%;
+  text-align: justify;
+}
+.examboard{
+  margin-left: 1%;
+}
+.passedyear{
+  margin-left: 1%;
+}
+.grades{
+  margin-left: 1%;
 }
 .picture img{
   width: 305px;
@@ -64,25 +89,16 @@ footer{
   width: 30px;
   height: 30px;
 }
-
 @media all and (max-width:600px){
   header{
-    width: 100%;
+    width: 102%;
   }
 header h1{
   text-align: center;
 }
-
-.logo{
-  width: 100%;
-}
-
-  .logo img{
-    text-align: center;
-  }
-
   .nav{
     width: 102%;
+    margin-left: -1.6%;
   }
 
   .nav ul{
@@ -91,6 +107,7 @@ header h1{
 
   .nav ul li{
     text-align: center;
+    width: 102%;
   }
 
   section{
@@ -99,6 +116,10 @@ header h1{
   }
 
   .text{
+    width: 100%;
+    margin-top: 50%;
+  }
+  .container{
     width: 100%;
   }
 

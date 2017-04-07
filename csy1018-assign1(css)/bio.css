@@ -1,3 +1,6 @@
+
+/*Name: Aakriti Pandey
+UN ID: 17425089*/
 body{
   background-color: #194d33;
 }
@@ -79,22 +82,14 @@ footer{
 
 @media all and (max-width:600px){
   header{
-    width: 100%;
+    width: 102%;
   }
 header h1{
   text-align: center;
 }
-
-  .logo{
-    width: 100%;
-  }
-
-  .logo img{
-    text-align: center;
-  }
-
   .nav{
-    width: 100%;
+    width: 102%;
+    margin-left: -1.6%;
   }
 
   .nav ul{
@@ -103,6 +98,7 @@ header h1{
 
   .nav ul li{
     text-align: center;
+    width: 102%;
   }
 
   section{
@@ -112,7 +108,7 @@ header h1{
 
   .text{
     width: 100%;
-    margin-top: 50%;
+    margin-top: 40%;
   }
 
   .picture{
