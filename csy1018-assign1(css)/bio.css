@@ -72,6 +72,10 @@ footer{
 .copyright{
   text-align: center;
 }
+.copyright img{
+  width: 30px;
+  height: 30px;
+}
 
 @media all and (max-width:600px){
   header{
@@ -90,7 +94,7 @@ header h1{
   }
 
   .nav{
-    width: 102%;
+    width: 100%;
   }
 
   .nav ul{
@@ -98,7 +102,7 @@ header h1{
   }
 
   .nav ul li{
-    text-align: right;
+    text-align: center;
   }
 
   section{
@@ -108,7 +112,7 @@ header h1{
 
   .text{
     width: 100%;
-    margin-top: 40%;
+    margin-top: 50%;
   }
 
   .picture{

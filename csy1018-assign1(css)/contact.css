@@ -2,9 +2,10 @@ body{
   background-color: #b1e7d3;
 }
 header{
-  background: #123a2c;color: white;text-align: center;padding: 1%;width: 99%;
+  background: #123a2c;color: white;text-align: left;padding: 1%;
   margin-left: -8;
   margin-top: -8;
+  display: flex;flex-direction: column;
 }
 h1{
   text-align: left;
@@ -14,12 +15,18 @@ h1{
 .logo img{
   width: 50px;
   height: 50px;
-  margin-left: -1280px;
-  margin-top:-12px;
+  margin-left: 0px;
+
 }
+.nav{
+  height: 10%;
+  margin-top: 0px;
+}
+
 ul{
   list-style-type: none;
   padding: 1%;
+    display: flex;flex-flow: row-reverse;
 }
 
 li a {
@@ -87,6 +94,13 @@ textarea{
 footer{
   background-color: #123a2c;color: white;padding: 2%;
 }
+.copyright{
+  text-align: center;
+}
+.copyright img{
+  width: 30px;
+  height: 30px;
+}
 
 @media all and (max-width:600px){
   header{
@@ -102,7 +116,7 @@ header h1{
   }
 
   .nav{
-    width: 102%;
+    width: 100%;
   }
 
   .nav ul{
@@ -110,7 +124,8 @@ header h1{
   }
 
   .nav ul li{
-    text-align: center;
+    text-align: right;
+
   }
 
   .form{
