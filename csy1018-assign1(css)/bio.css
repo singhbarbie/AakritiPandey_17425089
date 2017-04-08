@@ -1,91 +1,96 @@
-
 /*Name: Aakriti Pandey
 UN ID: 17425089*/
 body{
-  background-color: #25744d;
+  background-color: #25744d; /*providing background color to the body*/
 }
 header{
-  background: #06130d;color: white;text-align: left;padding: 1%;
+  background: #06130d; /*providing color to the header, margin and padding*/
+  color: white;
+  text-align: left;
+  padding: 1%;
   margin-left: -8px;
   margin-top: -8px;
   display: flex;flex-direction: column;
 }
 
 h1{
-  text-align: left;
+  text-align: left;  /*keeping the header text at the top left corner of the screen*/
   margin-left: 50px;
   margin-top: -35px;
 }
 
 .logo img{
-  width: 50px;
+  width: 50px; /*keeping the logo at the top left corner of the screen along with header text*/
   height: 50px;
   margin-left: 0px;
 }
 
 .nav{
-  height: 10%;
+  height: 10%; /*keeping the navigation bar at the right sorner of the header*/
   margin-top: 0px;
 }
 
 ul{
   list-style-type: none;
   padding: 1%;
-  display: flex;flex-flow: row-reverse;
+  display: flex;  /*displaying the items in navigation with flex property*/
+  flex-flow: row-reverse;
 }
 
 li a {
-  display:block;
+  display:block; /*displaying the list items in block with no text decoration*/
   background-color: #06130d;
   color: white;text-decoration: none;
   padding: 10px 30px;
 }
 li a:hover{
-  background-color: grey;
+  background-color: grey; /*when hovered on the list items of nav bar, changing the backgroung color of the list items into grey*/
   color: white;
 }
 
 section{
-  display: flex; flex-direction:row;
+  display: flex;   /*dislaying the section with flex property*/
+  flex-direction:row;
 }
 
 .text{
-  width: 70%;
+  width: 70%;  /*providing 70% of the total width for the class 'text'*/
 }
 
 .text p{
-  text-align: justify;
+  text-align: justify;  /*giving the margin, padding, text-align and font-size for the text inside the class text*/
   padding-right: 2%;
   padding-left: 2%;
   font-size: 18px;
 }
 
 .picture{
-  width: 30%;
+  width: 30%;  /*providing 30% of the total width for the class 'picture'*/
 }
 
 .picture img{
-  width: 400px;
+  width: 400px;  /*giving height and width for the image*/
   height: 400px;
 }
 footer{
-  background-color: #06130d;color: white;padding: 2%;
+  background-color: #06130d;color: white;padding: 2%;  /*providing backgroung-color and padding to the footer */
 }
 
 .copyright{
-  text-align: center;
+  text-align: center; /*aligning the copyright section in the footer at the center*/
 }
 .copyright img{
-  width: 30px;
+  width: 30px;  /*providing size to the pictures used in the copyright section*/
   height: 30px;
 }
 
+/*codes for making the web page mobile responsive*/
 @media all and (max-width:600px){
   header{
     width: 102%;
   }
 header h1{
-  text-align: center;
+  text-align: center; /*keeping the header text at the center of the mobile screen*/
 }
   .nav{
     width: 102%;
@@ -93,21 +98,24 @@ header h1{
   }
 
   .nav ul{
-    display: flex;flex-flow: column-reverse;
+    display: flex;  /*displaying the navigation items in flex and in colunm in mobile screen*/
+    flex-flow: column-reverse;
   }
 
   .nav ul li{
-    text-align: center;
+    text-align: center;  /*aligning the navigation list items at the center of the mobile screen*/
     width: 102%;
   }
 
   section{
-    width: 100%;
-    display: flex;flex-direction: column;
+    width: 100%;  /*displaying the section in column using the flex property*/
+    display: flex;
+    flex-direction: column;
   }
 
   .text{
     width: 100%;
+      /*providing 100% width for the class 'text' in the mobile screen*/
     margin-top: 40%;
   }
 
@@ -116,10 +124,10 @@ header h1{
   }
 
   .picture img{
-    width: 100%;
+    width: 100%; /*giving the image 100% width in the mobile screen*/
   }
 
   footer{
-    width: 96%;
+    width: 96%; /*giving the footer 96% width in the mobile screen*/
   }
 }

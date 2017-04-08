@@ -1,63 +1,67 @@
-
 /*Name: Aakriti Pandey
-UN ID: 17425089*/body{
-  background-color: #b1e7d3;
+UN ID: 17425089*/
+body{
+  background-color: #b1e7d3; /*providing background color to the body*/
 }
 header{
-  background: #123a2c;color: white;text-align: left;padding: 1%;
+  background: #123a2c; /*providing color to the header, margin and padding*/
+  color: white;
+  text-align: left;
+  padding: 1%;
   margin-left: -8px;
   margin-top: -8px;
   display: flex;flex-direction: column;
 }
 h1{
-  text-align: left;
+  text-align: left; /*keeping the header text at the top left corner of the screen*/
   margin-left: 50px;
   margin-top: -35px;
 }
 .logo img{
-  width: 50px;
+  width: 50px; /*keeping the logo at the top left corner of the screen along with header text*/
   height: 50px;
   margin-left: 0px;
 
 }
 .nav{
-  height: 10%;
+  height: 10%; /*keeping the navigation bar at the right sorner of the header*/
   margin-top: 0px;
 }
 
 ul{
   list-style-type: none;
   padding: 1%;
-    display: flex;flex-flow: row-reverse;
+    display: flex;  /*displaying the items in navigation with flex property*/
+    flex-flow: row-reverse;
 }
 
 li a {
-  display:block;
+  display:block; /*displaying the list items in block with no text decoration*/
   background-color: #123a2c;
   color: white;text-decoration: none;
   padding: 10px 30px;
 
 }
 li a:hover{
-  background-color: grey;
+  background-color: grey; /*when hovered on the list items of nav bar, changing the backgroung color of the list items into grey*/
   color: white;
 }
 input[type=text] {
-  width: 50%;
+  width: 50%;  /*providing width, padding, margin and border-radius to the text box*/
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border-radius: 4px;
 }
 input[type=email] {
-  width: 50%;
+  width: 50%;  /*providing width, padding, margin and border-radius to the email box*/
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border-radius: 4px;
 }
 input[type=submit] {
-  width: 25%;
+  width: 25%;  /*providing width, padding, margin and border-radius to the 'submit' button*/
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -67,7 +71,7 @@ input[type=submit] {
 
 }
 input[type=reset] {
-  width: 25%;
+  width: 25%;  /*providing width, padding, margin and border-radius to the 'reset' button*/
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -77,7 +81,7 @@ input[type=reset] {
 
 }
 textarea{
-  width: 100%;
+  width: 100%;  /*providing width, padding, margin and border-radius to the textarea*/
    height: 140px;
    border: 2px solid #ccc;
    border-radius: 4px;
@@ -86,36 +90,33 @@ textarea{
    box-sizing: border-box;
 }
 .checkbox{
-  margin-bottom: 50px;
+  margin-bottom: 50px;  /*dispalying the class 'checkbox' with flex property*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .checkbox article{
-  margin-right: 50%;
+  margin-right: 50%;  /*giving margin to the checkbox items*/
 }
 footer{
-  background-color: #123a2c;color: white;padding: 2%;
+  background-color: #123a2c;color: white;padding: 2%;  /*providing backgroung-color and padding to the footer */
 }
 .copyright{
-  text-align: center;
+  text-align: center; /*aligning the copyright section in the footer at the center*/
 }
 .copyright img{
-  width: 30px;
+  width: 30px;  /*providing size to the pictures used in the copyright section*/
   height: 30px;
 }
 
+/*codes for making the web page mobile responsive*/
 @media all and (max-width:600px){
   header{
     width: 102%;
   }
 header h1{
-  text-align: center;
+  text-align: center; /*keeping the header text at the center of the mobile screen*/
 }
-
-  .logo{
-    width: 100%;
-  }
 
   .nav{
     width: 100%;
@@ -123,42 +124,36 @@ header h1{
   }
 
   .nav ul{
-    display: flex;flex-flow: column-reverse;
+    display: flex;  /*displaying the navigation items in flex and in colunm in mobile screen*/
+    flex-flow: column-reverse;
   }
 
   .nav ul li{
-    text-align: center;
+    text-align: center;  /*aligning the navigation list items at the center of the mobile screen*/
     width: 104%;
 
   }
 
   .form{
-    width: 100%;
-    display: flex;flex-direction: column;
+    width: 100%;  /*displaying the class 'form' in column with flex property in mobile screen */
+    display: flex;
+    flex-direction: column;
   }
   .form p{
-    margin-top: 30%;
+    margin-top: 30%;  /*aligning the the text in class 'form' im mobile screen*/
   }
 
   input[type=text], input[type=email]{
-    width: 100%;
+    width: 100%;  /*providing 100% width to the text boxe and email box in the mobile screen*/
   }
 
   .checkbox{
-    width: 100%;
+    width: 100%;  /*dispalying the class 'checkbox' with flex property in the mobile screen*/
     display: flex;flex-direction: column;
     text-align: left;
   }
 
-  .picture{
-    width: 100%;
-  }
-
-  .picture img{
-    width: 100%;
-  }
-
   footer{
-    width: 96%;
+    width: 96%; /*giving the footer 96% width in the mobile screen*/
   }
 }

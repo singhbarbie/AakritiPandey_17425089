@@ -1,117 +1,118 @@
 /*Name: Aakriti Pandey
 UN ID: 17425089*/
 body{
-  background-color: #ffe6e6;
+  background-color: #ffe6e6; /*providing background color to the body*/
 }
 header{
-  background-color: #4d0000;color: white;text-align: left;padding: 1%;
+  background-color: #4d0000; /*providing color to the header, margin and padding*/
+  color: white;
+  text-align: left;
+  padding: 1%;
   margin-left: -8px;
   margin-top: -8px;
   display: flex;flex-direction: column;
 }
 h1{
-  text-align: left;
+  text-align: left;  /*keeping the header text at the top left corner of the screen*/
   margin-left: 50px;
   margin-top: -35px;
 }
 .logo img{
-  width: 50px;
+  width: 50px; /*keeping the logo at the top left corner of the screen along with header text*/
   height: 50px;
   margin-left: 0px;
 
 }
 .nav{
-  height: 10%;
+  height: 10%; /*keeping the navigation bar at the right sorner of the header*/
   margin-top: 0px;
 }
 
 ul{
   list-style-type: none;
   padding: 1%;
-  display: flex;flex-flow: row-reverse;
+  display: flex;  /*displaying the items in navigation with flex property*/
+  flex-flow: row-reverse;
 }
 
 li a {
-  display:block;
+  display:block; /*displaying the list items in block with no text decoration*/
   background-color: #4d0000;
   color: white;text-decoration: none;
   padding: 10px 30px;
 
 }
 li a:hover{
-  background-color: grey;
+  background-color: grey; /*when hovered on the list items of nav bar, changing the backgroung color of the list items into grey*/
   color: white;
 }
 .text{
-  font-size: 30px;
+  font-size: 30px; /*changing the font-family of the text into cursive and also the font-size*/
   font-family: cursive;
 }
 .text h2{
-  margin-left: 10%;
+  margin-left: 10%;  /*positioning the first line of the text*/
 }
 .text h3{
-  margin-left: 40%;
+  margin-left: 40%; /*positioning the second line of the text*/
   margin-top: -4%;
 }
 .picture{
-  text-align: center;
-  overflow: hidden;
-
+  text-align: center;  /*positioning the picture at the centre of the screen*/
 }
 
 .picture img{
   margin-top: 1%;
   width: 500px;
   height: 500px;
-  border-radius: 50%;
-  transition: 2s ease-in-out 0.25s;
+  border-radius: 50%;  /*shaping the image into round with the help of border-radius and maitaining its size*/
+  transition: 2s ease-in-out 0.25s;  /*giving transition effect to the image*/
 
 }
 .picture img:hover{
-  transform:rotateX(360deg);
+  transform:rotateX(360deg);  /*when hovered on the image, the image rotates by 360 degree*/
 }
 footer{
-  background-color: #4d0000;color: white;padding: 2%;
+  background-color: #4d0000;color: white;padding: 2%;  /*providing backgroung-color and padding to the footer */
 }
 
 .copyright{
-  text-align: center;
+  text-align: center; /*aligning the copyright section in the footer at the center*/
 }
 .copyright img{
-  width: 30px;
+  width: 30px;  /*providing size to the pictures used in the copyright section*/
   height: 30px;
 }
+
+/*codes for making the web page mobile responsive*/
 @media all and (max-width:600px){
   header{
     width: 102%;
   }
 header h1{
-  text-align: center;
+  text-align: center; /*keeping the header text at the center of the mobile screen*/
+
 }
-
-  .logo{
-    width: 100%;
-  }
-
-
   .nav{
     width: 100%;
     margin-left: -1.6%;
   }
 
   .nav ul{
-    display: flex;flex-flow: column-reverse;
+    display: flex;  /*displaying the navigation items in flex and in colunm in mobile screen*/
+    flex-flow: column-reverse;
 
   }
 
   .nav ul li{
-    text-align: center;
+    text-align: center;  /*aligning the navigation list items at the center of the mobile screen*/
     width: 103.5%;
   }
 
   section{
-    width: 100%;
-    display: flex;flex-direction: column;
+    width: 100%;  /*displaying the section in column using the flex property*/
+    display: flex;
+    flex-direction: column;
   }
 
   .text{
@@ -119,12 +120,11 @@ header h1{
     font-size: 10px;
   }
   .text h2{
-    margin-left: 10%;
+    margin-left: 10%;  /*positioninig the text in mobile screen*/
     margin-top: 20%;
   }
   .text h3{
-    margin-left: 40%;
-
+    margin-left: 40%;  /*positioninig the text in mobile screen*/
   }
 
   .picture {
@@ -132,11 +132,11 @@ header h1{
   }
 
   .picture img{
-    width: 100%;
+    width: 100%; /*giving the image 100% width in the mobile screen*/
 
   }
 
   footer{
-    width: 96%;
+    width: 96%; /*giving the footer 96% width in the mobile screen*/
   }
 }
